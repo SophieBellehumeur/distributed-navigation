@@ -28,9 +28,9 @@ header {
   padding: 1rem;
 }
 
-h1 {
+header h1 {
   margin: 0;
-  padding:
+  padding: 0;
 }
 
 nav ul {
@@ -41,9 +41,16 @@ nav ul {
   display: flex;
 }
 
-a {
+nav a {
   text-decoration: none;
   padding: .75em;
+  color: #0074d9;
+}
+
+nav a:hover {
+  background-color: #0074d9;
+  padding: 1em;
+  color: #fff;
 }
 
 header p {
